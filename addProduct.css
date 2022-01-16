@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	overflow-x: hidden;
+}
+*::-webkit-scrollbar{
+	display: none;
+}
+body{
+	background: #ececec;
+}
+
+header{
+	position: relative;
+	width: 100vw;
+	height: 40px;
+	padding: 5px 20px;
+	box-sizing: border-box;
+	background: white;
+}
+header a{
+	user-select: none;
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+header div.logo{
+	position: relative;
+	width: 150px;
+	left: calc(50% - 75px);
+}
+header div.logo img{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+header div.logo span{
+	position: relative;
+	margin: 0px 10px;
+	font-weight: bold;
+	top: -9px;
+}
+
+main{
+	position: relative;
+	width: 100%;
+}
+main a{
+	user-select: none;
+	text-decoration: none;
+	outline: pointer;
+}
+main span{
+	position: relative;
+	width: 500px;
+	margin: 20px 0px;
+	display: block;
+	left: calc(50% - 250px);
+	font-weight: bold;
+}
+main div.addProduct{
+	position: relative;
+	width: 500px;
+	margin: 10px 0px;
+	display: block;
+	left: calc(50% - 250px);
+	padding: 10px;
+	box-sizing: border-box;
+	background: white;
+	border-radius: 5px;
+}
+main div.addProduct input{
+	position: relative;
+	padding: 10px;
+	margin: 10px 0px;
+	border-radius: 5px;
+	border: 1px solid black;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+main div.addProduct div.submit{
+	position: relative;
+	border-radius: 5px;
+	background: steelblue;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	user-select: none;
+	cursor: pointer;
+}

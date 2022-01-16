@@ -1,0 +1,182 @@
+*{
+	margin: 0px;
+	overflow-x: hidden;
+}
+*::-webkit-scrollbar{
+	display: none;
+}
+body{
+	background: #ececec;
+}
+
+header{
+	position: relative;
+	width: 100vw;
+	height: 40px;
+	padding: 5px 20px;
+	box-sizing: border-box;
+	background: white;
+}
+header a{
+	user-select: none;
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+header div.logo{
+	position: relative;
+	width: 150px;
+	left: calc(50% - 75px);
+}
+header div.logo img{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+header div.logo span{
+	position: relative;
+	margin: 0px 10px;
+	font-weight: bold;
+	top: -9px;
+}
+
+main{
+	position: relative;
+	width: 100%;
+}
+main span#name{
+	position: relative;
+	width: 400px;
+	left: calc(50% - 200px);
+	color: black;
+	font-weight: bold;
+	padding: 10px 0px;
+	margin: 10px 0px 0px 0px;
+	display: block;
+}
+main a{
+	user-select: none;
+	cursor: pointer;
+	outline: none;
+}
+
+main div.register{
+	display: none;
+}
+
+main div.auth, main div.register{
+	position: relative;
+	width: 400px;
+	left: calc(50% - 200px);
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	box-sizing: border-box;
+	background: white;
+	margin: 0px 0px 0px 0px;
+}
+main div.auth input, main div.register input{
+	position: relative;
+	margin: 5px 0px;
+	border-radius: 5px;
+	padding: 10px;
+	outline: none;
+	border: 1px solid black;
+	width: 100%;
+	box-sizing: border-box;
+}
+main div.auth div.submit, main div.register div.submitR{
+	position: relative;
+	text-align: center;
+	background: steelblue;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px 0px;
+	margin: 10px 0px 0px 0px;
+	user-select: none;
+}
+main div.register select#methodR{
+	position: relative;
+	margin: 5px 0px;
+	border-radius: 5px;
+	padding: 10px;
+	outline: none;
+	border: 1px solid black;
+	width: 100%;
+	box-sizing: border-box;	
+}
+
+main div.reg{
+	position: relative;
+	margin: 10px 0px;
+	background: steelblue;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px 0px;
+	width: 400px;
+	left: calc(50% - 200px);
+	user-select: none;
+	cursor: pointer;
+}
+
+main div.products{
+	position: relative;
+	width: 500px;
+	left: calc(50% - 250px);
+	padding: 10px 0px;
+}
+main div.products div.product{
+	position: relative;
+	margin: 10px 0px;
+	border-radius: 5px;
+	background: white;
+	padding: 10px;
+	box-sizing: border-box;
+}
+main div.products div.product span{
+	display: block;
+}
+main div.products div.product span#name{
+	position: relative;
+    width: auto;
+    left: auto;
+    color: black;
+    font-weight: initial;
+    padding: 0px;
+    margin: 0px;
+}
+main div.products div.product span#seller a{
+	outline: none;
+	color: steelblue;
+	text-decoration: none;
+}
+main div.products div.product  div.buy{
+	position: relative;
+	display: block;
+	background: steelblue;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	padding: 7px 0px;
+	margin: 5px 0px 0px 0px;
+	user-select: none;
+	cursor: pointer;
+}
+
+div.answer{
+	position: fixed;
+	bottom: 10px;
+	background: green;
+	border-radius: 5px;
+	padding: 10px 20px;
+	width: 150px;
+	text-align: center;
+	color: white;
+	left: calc(50% - 75px);
+	box-sizing: border-box;
+	font-weight: bold;
+	display: none;
+}

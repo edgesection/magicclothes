@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+}
+body{
+	background: #ececec;
+}
+
+header{
+	position: relative;
+	width: 100vw;
+	height: 40px;
+	padding: 5px 20px;
+	box-sizing: border-box;
+	background: white;
+}
+header a{
+	user-select: none;
+	text-decoration: none;
+	outline: none;
+	color: black;
+}
+header div.logo{
+	position: relative;
+	width: 150px;
+	left: calc(50% - 75px);
+}
+header div.logo img{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+header div.logo span{
+	position: relative;
+	margin: 0px 10px;
+	font-weight: bold;
+	top: -9px;
+}
+
+main{
+	position: relative;
+	width: 100%;
+}
+main a{
+	user-select: none;
+	text-decoration: none;
+	outline: pointer;
+}
+main span#name{
+	position: relative;
+	margin: 20px 0px 0px 0px;
+	width: 500px;
+	left: calc(50% - 250px);
+	font-weight: bold;
+	display: block;
+}
+main div.change{
+	position: relative;
+	width: 500px;
+	padding: 10px;
+	left: calc(50% - 250px);
+	box-sizing: border-box;
+	margin: 15px 0px 10px 0px;
+	border-radius: 5px;
+	background: white;
+}
+main div.change input{
+	position: relative;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin: 5px 0px;
+	display: block;
+	width: 100%;
+	border: 1px solid black;
+}
+main div.change div.submit{
+	position: relative;
+	width: 100%;
+	background: steelblue;
+	text-align: center;
+	color: white;
+	padding: 10px 0px;
+	border-radius: 5px;
+	cursor: pointer;
+	user-select: none;
+}
